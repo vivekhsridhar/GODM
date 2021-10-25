@@ -1,3 +1,3 @@
 
 
-# for fish data and analyses, please go to [README.md](./src-fish/README.md)
+# for fish data and analyses, please go to [codes for fish data](./src-fish/README.md)
