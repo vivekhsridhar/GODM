@@ -1,11 +1,6 @@
 Instructions
 ------------
 
-To run this code, you need to install basic numpy, matplotlib, and pickle packages.
+Like the flyVR experiments, automating the locustVR experiments was also done using [SQLite databases](https://www.sqlite.org/index.html). However, unlike the flyVR experiments, there are four project, and experiment databases for the locustVR experiments. [flyProjects database](flyProjects.db) contains different randomisations which could be used to run the experiment. From these, all randomisations that were picked, for which experiments were conducted, are presented in the [flyExperiments database](flyExperiments.db).
 
-1.  To produce the two-choice decision-making plot, run [ReadTwoFishStimliEqualDis_Bifurcation_Vivek.ipynb](ReadTwoFishStimliEqualDis_Bifurcation_Vivek.ipynb).
-2.  To produce the three-choice decision-making plot, run [ReadThreeFishStimliEqualDis_Trifurcation_Vivek.ipynb](ReadThreeFishStimliEqualDis_Trifurcation_Vivek.ipynb)
-3.  To get the density plot of one real fish following two virtual fish, run [DensityPlotsRaw.ipynb](DensityPlotsRaw.ipynb)
-4.  To get the decision of the following behaviour with 3 virtual fish in asymmetrical formation, run [3VF_Backforth_Asymmetrical.ipynb](3VF_Backforth_Asymmetrical.ipynb)
-5.  To compare the speed control of the focual fish reacting to real and virtual fish, run [SpeedVSposition.ipynb](SpeedVSposition.ipynb)
-6.  To comapre the z-difference between real and virtual fish, run [xyz_spatial_distribution.ipynb](xyz_spatial_distribution.ipynb)
+To reproduce the various decision-making plots in the manuscript, run the [quantify_bifurcations.ipynb](quantify_bifurcations.ipynb). The required dependencies can be inferred from the first cell on this jupyter notebook. Please ensure you have all required dependencies while running this code.
