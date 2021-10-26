@@ -30,5 +30,6 @@ Cite
 
 If you use code from this repository, please cite it using this zenodo DOI:
 
+[![DOI](https://zenodo.org/badge/416756781.svg)](https://zenodo.org/badge/latestdoi/416756781)
 
 Thank You for using and citing us!
